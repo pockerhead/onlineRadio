@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         let root = PlayerConfigurator.createModule(with: 1826116)
         window?.rootViewController = root
+        UIApplication.shared.statusBarStyle = .lightContent
         return true
     }
 

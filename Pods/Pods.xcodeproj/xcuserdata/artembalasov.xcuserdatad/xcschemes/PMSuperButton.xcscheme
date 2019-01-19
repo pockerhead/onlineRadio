@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2BEA26BC0E3F69617541DA1A5131D4E5"
-               BlueprintName = "TableKit"
+               BlueprintIdentifier = "F6EE52D0D72DF7A35B37669DC3D33E57"
+               BlueprintName = "PMSuperButton"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "TableKit.framework">
+               BuildableName = "PMSuperButton.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

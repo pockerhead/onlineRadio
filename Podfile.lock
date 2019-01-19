@@ -2,6 +2,7 @@ PODS:
   - Alamofire (4.7.3)
   - CollectionKit (2.0.1)
   - Marshal (1.2.4)
+  - PMSuperButton (2.1.2)
   - PromiseKit (6.3.4):
     - PromiseKit/CorePromise (= 6.3.4)
     - PromiseKit/Foundation (= 6.3.4)
@@ -18,6 +19,7 @@ DEPENDENCIES:
   - Alamofire
   - CollectionKit
   - Marshal
+  - PMSuperButton
   - PromiseKit
   - SwiftyJSON
   - TableKit
@@ -27,6 +29,7 @@ SPEC REPOS:
     - Alamofire
     - CollectionKit
     - Marshal
+    - PMSuperButton
     - PromiseKit
     - SwiftyJSON
     - TableKit
@@ -35,10 +38,11 @@ SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   CollectionKit: c891976ede4e800e2102333df310edc06d8430f4
   Marshal: 8e04e6624e506921db7143b0bfd83caee03f32d6
+  PMSuperButton: 968f45a9a157499fcdd195ee54613a4cce980bdb
   PromiseKit: e1425568123ec844a944c93f2bcb29d511d39cf5
   SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
   TableKit: 506650573ed96ec007649b655559ecd43f9fd505
 
-PODFILE CHECKSUM: e8a073d9a5594df86c17fbd7931843cf20c1226c
+PODFILE CHECKSUM: a086f520e76968e44b7864b71d500fdc62592e2a
 
 COCOAPODS: 1.5.3

@@ -69,6 +69,7 @@ protocol PlayerView: class, Alertable {
     func displayStationName(_ stationName: String)
     func displaySongName(_ songName: String)
     func displayImage(_ image: UIImage)
-    func displayButtonImage(_ image: UIImage)
+    func displayButtonImage(played: Bool)
+    func displayLoading()
     /* Presenter -> ViewController */
 }

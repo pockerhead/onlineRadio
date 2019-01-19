@@ -11,6 +11,7 @@ target 'OnlineRadio' do
     pod "Marshal"
     pod "SwiftyJSON"
     pod "PromiseKit"
+    pod "PMSuperButton"
     # Pods for OnlineRadio
     
     target 'OnlineRadioTests' do

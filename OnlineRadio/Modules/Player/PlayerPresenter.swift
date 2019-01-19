@@ -11,14 +11,16 @@
 
 import UIKit
 import AVFoundation
-
+import MediaPlayer
 class PlayerPresenter {
     // MARK: - Properties
     weak private var view: PlayerView?
     var interactor: PlayerInteractorInput?
     private let router: PlayerWireframeInterface
     private var stationID: Int!
-    private var isPlayed: Bool = false
+    private var isPlaying: Bool {
+        return player.isPlaying
+    }
     private var player = AVPlayer()
     
     // MARK: - Initialization and deinitialization -
@@ -28,31 +30,52 @@ class PlayerPresenter {
         self.interactor = interactor
         self.router = router
     }
-
+    
 }
 
 // MARK: - PlayerPresenterInterface -
 extension PlayerPresenter: PlayerPresenterInterface {
     func didSelectPlayPauseButton() {
-        togglePlayed()
-        view?.displayButtonImage(UIImage(named: isPlayed ? "pauseIcon" : "playIcon") ?? UIImage())
+        if isPlaying {
+            pause()
+        } else {
+            play()
+        }
     }
     
     func viewDidLoad() {
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: [])
+            print("Playback OK")
+            try AVAudioSession.sharedInstance().setActive(true)
+            print("Session is Active")
+            UIApplication.shared.beginReceivingRemoteControlEvents()
+            setupCommandCenter()
+        } catch {
+            print(error)
+        }
+        view?.displayLoading()
         interactor?.fetchStreamURL(with: stationID)
+    }
+    
+    func viewWillAppear() {
+        view?.displayButtonImage(played: isPlaying)
     }
 }
 
 //MARK: - Private
 extension PlayerPresenter {
-    private func togglePlayed() {
-        isPlayed.toggle()
-        if isPlayed {
-            player.play()
-        } else {
-            player.pause()
-        }
-        
+    
+
+    
+    private func play() {
+        view?.displayLoading()
+        interactor?.fetchStreamURL(with: stationID)
+    }
+    
+    private func pause() {
+        self.player.pause()
+        view?.displayButtonImage(played: isPlaying)
     }
 }
 
@@ -60,12 +83,31 @@ extension PlayerPresenter {
 extension PlayerPresenter: PlayerInteractorOutput {
     func fetched(with streamURL: String) {
         guard let url = URL( string: streamURL) else {
-//            fetched(with: )
             return
         }
         let item = AVPlayerItem(url: url)
         player = AVPlayer(playerItem: item)
-        didSelectPlayPauseButton()
+        player.play()
+        view?.displayButtonImage(played: isPlaying)
+        
+    }
+    
+    private func setupCommandCenter() {
+        MPNowPlayingInfoCenter.default().nowPlayingInfo = [MPMediaItemPropertyTitle: "OnlineRadio"]
+        
+        let commandCenter = MPRemoteCommandCenter.shared()
+        commandCenter.playCommand.isEnabled = true
+        commandCenter.pauseCommand.isEnabled = true
+        commandCenter.playCommand.addTarget { [weak self] (event) -> MPRemoteCommandHandlerStatus in
+            guard let `self` = self else {return .success}
+            self.play()
+            return .success
+        }
+        commandCenter.pauseCommand.addTarget { [weak self] (event) -> MPRemoteCommandHandlerStatus in
+            guard let `self` = self else {return .success}
+            self.pause()
+            return .success
+        }
     }
     
     func fetched(with error: Error) {
@@ -76,7 +118,7 @@ extension PlayerPresenter: PlayerInteractorOutput {
         
     }
     
-
+    
     
     
 }

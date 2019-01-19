@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD779477D12599D3FC357F76FFFC249A"
+               BlueprintIdentifier = "A04AB20140238DF094ED5794FB674446"
                BuildableName = "Pods_OnlineRadio.framework"
                BlueprintName = "Pods-OnlineRadio"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CD779477D12599D3FC357F76FFFC249A"
+            BlueprintIdentifier = "A04AB20140238DF094ED5794FB674446"
             BuildableName = "Pods_OnlineRadio.framework"
             BlueprintName = "Pods-OnlineRadio"
             ReferencedContainer = "container:Pods.xcodeproj">
