@@ -1,0 +1,6 @@
+framework module Pods_OnlineRadio {
+  umbrella header "Pods-OnlineRadio-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_OnlineRadioUITests {
+  umbrella header "Pods-OnlineRadioUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

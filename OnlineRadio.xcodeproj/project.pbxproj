@@ -1,0 +1,1062 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06008AEB21F3859C00846A47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008AEA21F3859C00846A47 /* AppDelegate.swift */; };
+		06008AF221F385A000846A47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06008AF121F385A000846A47 /* Assets.xcassets */; };
+		06008AF521F385A000846A47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06008AF321F385A000846A47 /* LaunchScreen.storyboard */; };
+		06008B0021F385A000846A47 /* OnlineRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008AFF21F385A000846A47 /* OnlineRadioTests.swift */; };
+		06008B0B21F385A000846A47 /* OnlineRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B0A21F385A000846A47 /* OnlineRadioUITests.swift */; };
+		06008B3921F38A0C00846A47 /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B1C21F38A0900846A47 /* Extension+UILabel.swift */; };
+		06008B3A21F38A0C00846A47 /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B1C21F38A0900846A47 /* Extension+UILabel.swift */; };
+		06008B3B21F38A0C00846A47 /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B1C21F38A0900846A47 /* Extension+UILabel.swift */; };
+		06008B3C21F38A0C00846A47 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B1D21F38A0900846A47 /* Extension+UIView.swift */; };
+		06008B3D21F38A0C00846A47 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B1D21F38A0900846A47 /* Extension+UIView.swift */; };
+		06008B3E21F38A0C00846A47 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B1D21F38A0900846A47 /* Extension+UIView.swift */; };
+		06008B3F21F38A0C00846A47 /* Extension + Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B1E21F38A0900846A47 /* Extension + Data.swift */; };
+		06008B4021F38A0C00846A47 /* Extension + Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B1E21F38A0900846A47 /* Extension + Data.swift */; };
+		06008B4121F38A0C00846A47 /* Extension + Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B1E21F38A0900846A47 /* Extension + Data.swift */; };
+		06008B4221F38A0C00846A47 /* Extension+CardPresentation+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B1F21F38A0900846A47 /* Extension+CardPresentation+UIViewController.swift */; };
+		06008B4321F38A0C00846A47 /* Extension+CardPresentation+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B1F21F38A0900846A47 /* Extension+CardPresentation+UIViewController.swift */; };
+		06008B4421F38A0C00846A47 /* Extension+CardPresentation+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B1F21F38A0900846A47 /* Extension+CardPresentation+UIViewController.swift */; };
+		06008B4521F38A0C00846A47 /* Extension + SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2021F38A0900846A47 /* Extension + SideMenuController.swift */; };
+		06008B4621F38A0C00846A47 /* Extension + SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2021F38A0900846A47 /* Extension + SideMenuController.swift */; };
+		06008B4721F38A0C00846A47 /* Extension + SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2021F38A0900846A47 /* Extension + SideMenuController.swift */; };
+		06008B4821F38A0C00846A47 /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2121F38A0900846A47 /* Extension+UIImage.swift */; };
+		06008B4921F38A0C00846A47 /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2121F38A0900846A47 /* Extension+UIImage.swift */; };
+		06008B4A21F38A0C00846A47 /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2121F38A0900846A47 /* Extension+UIImage.swift */; };
+		06008B4B21F38A0C00846A47 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2221F38A0900846A47 /* UIView+Anchors.swift */; };
+		06008B4C21F38A0C00846A47 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2221F38A0900846A47 /* UIView+Anchors.swift */; };
+		06008B4D21F38A0C00846A47 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2221F38A0900846A47 /* UIView+Anchors.swift */; };
+		06008B4E21F38A0C00846A47 /* UITableView+TableFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2321F38A0900846A47 /* UITableView+TableFlip.swift */; };
+		06008B4F21F38A0C00846A47 /* UITableView+TableFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2321F38A0900846A47 /* UITableView+TableFlip.swift */; };
+		06008B5021F38A0C00846A47 /* UITableView+TableFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2321F38A0900846A47 /* UITableView+TableFlip.swift */; };
+		06008B5121F38A0C00846A47 /* Extension + PromiseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2421F38A0900846A47 /* Extension + PromiseKit.swift */; };
+		06008B5221F38A0C00846A47 /* Extension + PromiseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2421F38A0900846A47 /* Extension + PromiseKit.swift */; };
+		06008B5321F38A0C00846A47 /* Extension + PromiseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2421F38A0900846A47 /* Extension + PromiseKit.swift */; };
+		06008B5421F38A0C00846A47 /* Extension+DP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2521F38A0900846A47 /* Extension+DP.swift */; };
+		06008B5521F38A0C00846A47 /* Extension+DP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2521F38A0900846A47 /* Extension+DP.swift */; };
+		06008B5621F38A0C00846A47 /* Extension+DP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2521F38A0900846A47 /* Extension+DP.swift */; };
+		06008B5721F38A0C00846A47 /* Extension+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2621F38A0900846A47 /* Extension+Dictionary.swift */; };
+		06008B5821F38A0C00846A47 /* Extension+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2621F38A0900846A47 /* Extension+Dictionary.swift */; };
+		06008B5921F38A0C00846A47 /* Extension+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2621F38A0900846A47 /* Extension+Dictionary.swift */; };
+		06008B5A21F38A0C00846A47 /* Extension+TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2721F38A0900846A47 /* Extension+TimeInterval.swift */; };
+		06008B5B21F38A0C00846A47 /* Extension+TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2721F38A0900846A47 /* Extension+TimeInterval.swift */; };
+		06008B5C21F38A0C00846A47 /* Extension+TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2721F38A0900846A47 /* Extension+TimeInterval.swift */; };
+		06008B5D21F38A0C00846A47 /* Extension+TableDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2821F38A0A00846A47 /* Extension+TableDirector.swift */; };
+		06008B5E21F38A0C00846A47 /* Extension+TableDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2821F38A0A00846A47 /* Extension+TableDirector.swift */; };
+		06008B5F21F38A0C00846A47 /* Extension+TableDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2821F38A0A00846A47 /* Extension+TableDirector.swift */; };
+		06008B6021F38A0C00846A47 /* CGFloat + Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2921F38A0A00846A47 /* CGFloat + Convert.swift */; };
+		06008B6121F38A0C00846A47 /* CGFloat + Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2921F38A0A00846A47 /* CGFloat + Convert.swift */; };
+		06008B6221F38A0C00846A47 /* CGFloat + Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2921F38A0A00846A47 /* CGFloat + Convert.swift */; };
+		06008B6321F38A0C00846A47 /* Extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2A21F38A0A00846A47 /* Extension+Date.swift */; };
+		06008B6421F38A0C00846A47 /* Extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2A21F38A0A00846A47 /* Extension+Date.swift */; };
+		06008B6521F38A0C00846A47 /* Extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2A21F38A0A00846A47 /* Extension+Date.swift */; };
+		06008B6621F38A0C00846A47 /* UIApplication + StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2B21F38A0A00846A47 /* UIApplication + StatusBarView.swift */; };
+		06008B6721F38A0C00846A47 /* UIApplication + StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2B21F38A0A00846A47 /* UIApplication + StatusBarView.swift */; };
+		06008B6821F38A0C00846A47 /* UIApplication + StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2B21F38A0A00846A47 /* UIApplication + StatusBarView.swift */; };
+		06008B6921F38A0C00846A47 /* Extension+CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2C21F38A0A00846A47 /* Extension+CALayer.swift */; };
+		06008B6A21F38A0C00846A47 /* Extension+CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2C21F38A0A00846A47 /* Extension+CALayer.swift */; };
+		06008B6B21F38A0C00846A47 /* Extension+CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2C21F38A0A00846A47 /* Extension+CALayer.swift */; };
+		06008B6C21F38A0C00846A47 /* Extension+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2D21F38A0A00846A47 /* Extension+ViewController.swift */; };
+		06008B6D21F38A0C00846A47 /* Extension+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2D21F38A0A00846A47 /* Extension+ViewController.swift */; };
+		06008B6E21F38A0C00846A47 /* Extension+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2D21F38A0A00846A47 /* Extension+ViewController.swift */; };
+		06008B6F21F38A0C00846A47 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2E21F38A0A00846A47 /* Extension+UIColor.swift */; };
+		06008B7021F38A0C00846A47 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2E21F38A0A00846A47 /* Extension+UIColor.swift */; };
+		06008B7121F38A0C00846A47 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2E21F38A0A00846A47 /* Extension+UIColor.swift */; };
+		06008B7221F38A0C00846A47 /* Extension + Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2F21F38A0A00846A47 /* Extension + Localize.swift */; };
+		06008B7321F38A0C00846A47 /* Extension + Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2F21F38A0A00846A47 /* Extension + Localize.swift */; };
+		06008B7421F38A0C00846A47 /* Extension + Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B2F21F38A0A00846A47 /* Extension + Localize.swift */; };
+		06008B7521F38A0C00846A47 /* Extension+FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3021F38A0A00846A47 /* Extension+FloatingPoint.swift */; };
+		06008B7621F38A0C00846A47 /* Extension+FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3021F38A0A00846A47 /* Extension+FloatingPoint.swift */; };
+		06008B7721F38A0C00846A47 /* Extension+FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3021F38A0A00846A47 /* Extension+FloatingPoint.swift */; };
+		06008B7821F38A0C00846A47 /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3121F38A0B00846A47 /* Extension+UIButton.swift */; };
+		06008B7921F38A0C00846A47 /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3121F38A0B00846A47 /* Extension+UIButton.swift */; };
+		06008B7A21F38A0C00846A47 /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3121F38A0B00846A47 /* Extension+UIButton.swift */; };
+		06008B7B21F38A0C00846A47 /* Extension+UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3221F38A0B00846A47 /* Extension+UserDefaults.swift */; };
+		06008B7C21F38A0C00846A47 /* Extension+UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3221F38A0B00846A47 /* Extension+UserDefaults.swift */; };
+		06008B7D21F38A0C00846A47 /* Extension+UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3221F38A0B00846A47 /* Extension+UserDefaults.swift */; };
+		06008B7E21F38A0C00846A47 /* Extension+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3321F38A0B00846A47 /* Extension+Array.swift */; };
+		06008B7F21F38A0C00846A47 /* Extension+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3321F38A0B00846A47 /* Extension+Array.swift */; };
+		06008B8021F38A0C00846A47 /* Extension+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3321F38A0B00846A47 /* Extension+Array.swift */; };
+		06008B8121F38A0C00846A47 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3421F38A0B00846A47 /* Util.swift */; };
+		06008B8221F38A0C00846A47 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3421F38A0B00846A47 /* Util.swift */; };
+		06008B8321F38A0C00846A47 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3421F38A0B00846A47 /* Util.swift */; };
+		06008B8421F38A0C00846A47 /* GCD+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3521F38A0B00846A47 /* GCD+ext.swift */; };
+		06008B8521F38A0C00846A47 /* GCD+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3521F38A0B00846A47 /* GCD+ext.swift */; };
+		06008B8621F38A0C00846A47 /* GCD+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3521F38A0B00846A47 /* GCD+ext.swift */; };
+		06008B8721F38A0C00846A47 /* Extension+DealocationChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3621F38A0B00846A47 /* Extension+DealocationChecker.swift */; };
+		06008B8821F38A0C00846A47 /* Extension+DealocationChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3621F38A0B00846A47 /* Extension+DealocationChecker.swift */; };
+		06008B8921F38A0C00846A47 /* Extension+DealocationChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3621F38A0B00846A47 /* Extension+DealocationChecker.swift */; };
+		06008B8A21F38A0C00846A47 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3721F38A0B00846A47 /* Extension+String.swift */; };
+		06008B8B21F38A0C00846A47 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3721F38A0B00846A47 /* Extension+String.swift */; };
+		06008B8C21F38A0C00846A47 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3721F38A0B00846A47 /* Extension+String.swift */; };
+		06008B8D21F38A0C00846A47 /* Extension+UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3821F38A0C00846A47 /* Extension+UINavigationController.swift */; };
+		06008B8E21F38A0C00846A47 /* Extension+UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3821F38A0C00846A47 /* Extension+UINavigationController.swift */; };
+		06008B8F21F38A0C00846A47 /* Extension+UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B3821F38A0C00846A47 /* Extension+UINavigationController.swift */; };
+		06008B9821F38C6300846A47 /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06008B9121F38C6300846A47 /* Player.storyboard */; };
+		06008B9921F38C6300846A47 /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06008B9121F38C6300846A47 /* Player.storyboard */; };
+		06008B9A21F38C6300846A47 /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06008B9121F38C6300846A47 /* Player.storyboard */; };
+		06008B9B21F38C6300846A47 /* PlayerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B9221F38C6300846A47 /* PlayerPresenter.swift */; };
+		06008B9C21F38C6300846A47 /* PlayerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B9221F38C6300846A47 /* PlayerPresenter.swift */; };
+		06008B9D21F38C6300846A47 /* PlayerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B9221F38C6300846A47 /* PlayerPresenter.swift */; };
+		06008B9E21F38C6300846A47 /* PlayerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B9321F38C6300846A47 /* PlayerRouter.swift */; };
+		06008B9F21F38C6300846A47 /* PlayerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B9321F38C6300846A47 /* PlayerRouter.swift */; };
+		06008BA021F38C6300846A47 /* PlayerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B9321F38C6300846A47 /* PlayerRouter.swift */; };
+		06008BA121F38C6300846A47 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B9421F38C6300846A47 /* PlayerViewController.swift */; };
+		06008BA221F38C6300846A47 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B9421F38C6300846A47 /* PlayerViewController.swift */; };
+		06008BA321F38C6300846A47 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B9421F38C6300846A47 /* PlayerViewController.swift */; };
+		06008BA421F38C6300846A47 /* PlayerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B9521F38C6300846A47 /* PlayerProtocols.swift */; };
+		06008BA521F38C6300846A47 /* PlayerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B9521F38C6300846A47 /* PlayerProtocols.swift */; };
+		06008BA621F38C6300846A47 /* PlayerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B9521F38C6300846A47 /* PlayerProtocols.swift */; };
+		06008BA721F38C6300846A47 /* PlayerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B9621F38C6300846A47 /* PlayerInteractor.swift */; };
+		06008BA821F38C6300846A47 /* PlayerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B9621F38C6300846A47 /* PlayerInteractor.swift */; };
+		06008BA921F38C6300846A47 /* PlayerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B9621F38C6300846A47 /* PlayerInteractor.swift */; };
+		06008BAA21F38C6300846A47 /* PlayerConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B9721F38C6300846A47 /* PlayerConfigurator.swift */; };
+		06008BAB21F38C6300846A47 /* PlayerConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B9721F38C6300846A47 /* PlayerConfigurator.swift */; };
+		06008BAC21F38C6300846A47 /* PlayerConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008B9721F38C6300846A47 /* PlayerConfigurator.swift */; };
+		06008BAE21F3968200846A47 /* PlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008BAD21F3968200846A47 /* PlayerService.swift */; };
+		06008BAF21F3968200846A47 /* PlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008BAD21F3968200846A47 /* PlayerService.swift */; };
+		06008BB021F3968200846A47 /* PlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008BAD21F3968200846A47 /* PlayerService.swift */; };
+		3D2043449E79FFDF46438C4D /* Pods_OnlineRadio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A608C59468BC7D118344E51 /* Pods_OnlineRadio.framework */; };
+		69A0EFBA4DD2CE4A5AAB0527 /* Pods_OnlineRadioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A49B1FE20DB7EEBF59806CC /* Pods_OnlineRadioTests.framework */; };
+		D3AEEAD280109F9FBC5223E0 /* Pods_OnlineRadioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26FC781DBA4AF32361B97B2E /* Pods_OnlineRadioUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06008AFC21F385A000846A47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06008ADF21F3859B00846A47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06008AE621F3859B00846A47;
+			remoteInfo = OnlineRadio;
+		};
+		06008B0721F385A000846A47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06008ADF21F3859B00846A47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06008AE621F3859B00846A47;
+			remoteInfo = OnlineRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06008AE721F3859C00846A47 /* OnlineRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06008AEA21F3859C00846A47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06008AF121F385A000846A47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06008AF421F385A000846A47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06008AF621F385A000846A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06008AFB21F385A000846A47 /* OnlineRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlineRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06008AFF21F385A000846A47 /* OnlineRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineRadioTests.swift; sourceTree = "<group>"; };
+		06008B0121F385A000846A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06008B0621F385A000846A47 /* OnlineRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlineRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06008B0A21F385A000846A47 /* OnlineRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineRadioUITests.swift; sourceTree = "<group>"; };
+		06008B0C21F385A000846A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06008B1C21F38A0900846A47 /* Extension+UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+UILabel.swift"; path = "Extensions/Extension+UILabel.swift"; sourceTree = "<group>"; };
+		06008B1D21F38A0900846A47 /* Extension+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+UIView.swift"; path = "Extensions/Extension+UIView.swift"; sourceTree = "<group>"; };
+		06008B1E21F38A0900846A47 /* Extension + Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension + Data.swift"; path = "Extensions/Extension + Data.swift"; sourceTree = "<group>"; };
+		06008B1F21F38A0900846A47 /* Extension+CardPresentation+UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+CardPresentation+UIViewController.swift"; path = "Extensions/Extension+CardPresentation+UIViewController.swift"; sourceTree = "<group>"; };
+		06008B2021F38A0900846A47 /* Extension + SideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension + SideMenuController.swift"; path = "Extensions/Extension + SideMenuController.swift"; sourceTree = "<group>"; };
+		06008B2121F38A0900846A47 /* Extension+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+UIImage.swift"; path = "Extensions/Extension+UIImage.swift"; sourceTree = "<group>"; };
+		06008B2221F38A0900846A47 /* UIView+Anchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Anchors.swift"; path = "Extensions/UIView+Anchors.swift"; sourceTree = "<group>"; };
+		06008B2321F38A0900846A47 /* UITableView+TableFlip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITableView+TableFlip.swift"; path = "Extensions/UITableView+TableFlip.swift"; sourceTree = "<group>"; };
+		06008B2421F38A0900846A47 /* Extension + PromiseKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension + PromiseKit.swift"; path = "Extensions/Extension + PromiseKit.swift"; sourceTree = "<group>"; };
+		06008B2521F38A0900846A47 /* Extension+DP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+DP.swift"; path = "Extensions/Extension+DP.swift"; sourceTree = "<group>"; };
+		06008B2621F38A0900846A47 /* Extension+Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+Dictionary.swift"; path = "Extensions/Extension+Dictionary.swift"; sourceTree = "<group>"; };
+		06008B2721F38A0900846A47 /* Extension+TimeInterval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+TimeInterval.swift"; path = "Extensions/Extension+TimeInterval.swift"; sourceTree = "<group>"; };
+		06008B2821F38A0A00846A47 /* Extension+TableDirector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+TableDirector.swift"; path = "Extensions/Extension+TableDirector.swift"; sourceTree = "<group>"; };
+		06008B2921F38A0A00846A47 /* CGFloat + Convert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGFloat + Convert.swift"; path = "Extensions/CGFloat + Convert.swift"; sourceTree = "<group>"; };
+		06008B2A21F38A0A00846A47 /* Extension+Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+Date.swift"; path = "Extensions/Extension+Date.swift"; sourceTree = "<group>"; };
+		06008B2B21F38A0A00846A47 /* UIApplication + StatusBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIApplication + StatusBarView.swift"; path = "Extensions/UIApplication + StatusBarView.swift"; sourceTree = "<group>"; };
+		06008B2C21F38A0A00846A47 /* Extension+CALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+CALayer.swift"; path = "Extensions/Extension+CALayer.swift"; sourceTree = "<group>"; };
+		06008B2D21F38A0A00846A47 /* Extension+ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+ViewController.swift"; path = "Extensions/Extension+ViewController.swift"; sourceTree = "<group>"; };
+		06008B2E21F38A0A00846A47 /* Extension+UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+UIColor.swift"; path = "Extensions/Extension+UIColor.swift"; sourceTree = "<group>"; };
+		06008B2F21F38A0A00846A47 /* Extension + Localize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension + Localize.swift"; path = "Extensions/Extension + Localize.swift"; sourceTree = "<group>"; };
+		06008B3021F38A0A00846A47 /* Extension+FloatingPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+FloatingPoint.swift"; path = "Extensions/Extension+FloatingPoint.swift"; sourceTree = "<group>"; };
+		06008B3121F38A0B00846A47 /* Extension+UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+UIButton.swift"; path = "Extensions/Extension+UIButton.swift"; sourceTree = "<group>"; };
+		06008B3221F38A0B00846A47 /* Extension+UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+UserDefaults.swift"; path = "Extensions/Extension+UserDefaults.swift"; sourceTree = "<group>"; };
+		06008B3321F38A0B00846A47 /* Extension+Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+Array.swift"; path = "Extensions/Extension+Array.swift"; sourceTree = "<group>"; };
+		06008B3421F38A0B00846A47 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Util.swift; path = Extensions/Util.swift; sourceTree = "<group>"; };
+		06008B3521F38A0B00846A47 /* GCD+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "GCD+ext.swift"; path = "Extensions/GCD+ext.swift"; sourceTree = "<group>"; };
+		06008B3621F38A0B00846A47 /* Extension+DealocationChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+DealocationChecker.swift"; path = "Extensions/Extension+DealocationChecker.swift"; sourceTree = "<group>"; };
+		06008B3721F38A0B00846A47 /* Extension+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+String.swift"; path = "Extensions/Extension+String.swift"; sourceTree = "<group>"; };
+		06008B3821F38A0C00846A47 /* Extension+UINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+UINavigationController.swift"; path = "Extensions/Extension+UINavigationController.swift"; sourceTree = "<group>"; };
+		06008B9121F38C6300846A47 /* Player.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Player.storyboard; sourceTree = "<group>"; };
+		06008B9221F38C6300846A47 /* PlayerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerPresenter.swift; sourceTree = "<group>"; };
+		06008B9321F38C6300846A47 /* PlayerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRouter.swift; sourceTree = "<group>"; };
+		06008B9421F38C6300846A47 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		06008B9521F38C6300846A47 /* PlayerProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerProtocols.swift; sourceTree = "<group>"; };
+		06008B9621F38C6300846A47 /* PlayerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInteractor.swift; sourceTree = "<group>"; };
+		06008B9721F38C6300846A47 /* PlayerConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerConfigurator.swift; sourceTree = "<group>"; };
+		06008BAD21F3968200846A47 /* PlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerService.swift; sourceTree = "<group>"; };
+		1BD87DF0F678210261661AC3 /* Pods-OnlineRadio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineRadio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnlineRadio/Pods-OnlineRadio.debug.xcconfig"; sourceTree = "<group>"; };
+		26FC781DBA4AF32361B97B2E /* Pods_OnlineRadioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnlineRadioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A608C59468BC7D118344E51 /* Pods_OnlineRadio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnlineRadio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A49B1FE20DB7EEBF59806CC /* Pods_OnlineRadioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnlineRadioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B74426A567F3EF83778A22 /* Pods-OnlineRadioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineRadioUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnlineRadioUITests/Pods-OnlineRadioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A705BE56C060CBFE948DD2B2 /* Pods-OnlineRadioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineRadioTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnlineRadioTests/Pods-OnlineRadioTests.release.xcconfig"; sourceTree = "<group>"; };
+		A9B3459A32664B0B3D81853A /* Pods-OnlineRadioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineRadioUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnlineRadioUITests/Pods-OnlineRadioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C80C918F26DCFD5432C4F178 /* Pods-OnlineRadioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineRadioTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnlineRadioTests/Pods-OnlineRadioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED77B89D7908A5219E2F46ED /* Pods-OnlineRadio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineRadio.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnlineRadio/Pods-OnlineRadio.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06008AE421F3859B00846A47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2043449E79FFDF46438C4D /* Pods_OnlineRadio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06008AF821F385A000846A47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A0EFBA4DD2CE4A5AAB0527 /* Pods_OnlineRadioTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06008B0321F385A000846A47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3AEEAD280109F9FBC5223E0 /* Pods_OnlineRadioUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06008ADE21F3859B00846A47 = {
+			isa = PBXGroup;
+			children = (
+				06008AE921F3859C00846A47 /* OnlineRadio */,
+				06008AFE21F385A000846A47 /* OnlineRadioTests */,
+				06008B0921F385A000846A47 /* OnlineRadioUITests */,
+				06008AE821F3859C00846A47 /* Products */,
+				ACCEEE4582DD414D81708E32 /* Pods */,
+				8395C440676F3BEE05AB1D01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06008AE821F3859C00846A47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06008AE721F3859C00846A47 /* OnlineRadio.app */,
+				06008AFB21F385A000846A47 /* OnlineRadioTests.xctest */,
+				06008B0621F385A000846A47 /* OnlineRadioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06008AE921F3859C00846A47 /* OnlineRadio */ = {
+			isa = PBXGroup;
+			children = (
+				06008B1B21F3897800846A47 /* Extensions */,
+				06008B1A21F3897300846A47 /* Models */,
+				06008B1921F3896900846A47 /* Services */,
+				06008B1821F3896300846A47 /* Modules */,
+				06008AEA21F3859C00846A47 /* AppDelegate.swift */,
+				06008AF121F385A000846A47 /* Assets.xcassets */,
+				06008AF321F385A000846A47 /* LaunchScreen.storyboard */,
+				06008AF621F385A000846A47 /* Info.plist */,
+			);
+			path = OnlineRadio;
+			sourceTree = "<group>";
+		};
+		06008AFE21F385A000846A47 /* OnlineRadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				06008AFF21F385A000846A47 /* OnlineRadioTests.swift */,
+				06008B0121F385A000846A47 /* Info.plist */,
+			);
+			path = OnlineRadioTests;
+			sourceTree = "<group>";
+		};
+		06008B0921F385A000846A47 /* OnlineRadioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06008B0A21F385A000846A47 /* OnlineRadioUITests.swift */,
+				06008B0C21F385A000846A47 /* Info.plist */,
+			);
+			path = OnlineRadioUITests;
+			sourceTree = "<group>";
+		};
+		06008B1821F3896300846A47 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				06008B9021F38C5200846A47 /* Player */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		06008B1921F3896900846A47 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				06008BAD21F3968200846A47 /* PlayerService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		06008B1A21F3897300846A47 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		06008B1B21F3897800846A47 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				06008B2921F38A0A00846A47 /* CGFloat + Convert.swift */,
+				06008B1E21F38A0900846A47 /* Extension + Data.swift */,
+				06008B2F21F38A0A00846A47 /* Extension + Localize.swift */,
+				06008B2421F38A0900846A47 /* Extension + PromiseKit.swift */,
+				06008B2021F38A0900846A47 /* Extension + SideMenuController.swift */,
+				06008B3321F38A0B00846A47 /* Extension+Array.swift */,
+				06008B2C21F38A0A00846A47 /* Extension+CALayer.swift */,
+				06008B1F21F38A0900846A47 /* Extension+CardPresentation+UIViewController.swift */,
+				06008B2A21F38A0A00846A47 /* Extension+Date.swift */,
+				06008B3621F38A0B00846A47 /* Extension+DealocationChecker.swift */,
+				06008B2621F38A0900846A47 /* Extension+Dictionary.swift */,
+				06008B2521F38A0900846A47 /* Extension+DP.swift */,
+				06008B3021F38A0A00846A47 /* Extension+FloatingPoint.swift */,
+				06008B3721F38A0B00846A47 /* Extension+String.swift */,
+				06008B2821F38A0A00846A47 /* Extension+TableDirector.swift */,
+				06008B2721F38A0900846A47 /* Extension+TimeInterval.swift */,
+				06008B3121F38A0B00846A47 /* Extension+UIButton.swift */,
+				06008B2E21F38A0A00846A47 /* Extension+UIColor.swift */,
+				06008B2121F38A0900846A47 /* Extension+UIImage.swift */,
+				06008B1C21F38A0900846A47 /* Extension+UILabel.swift */,
+				06008B3821F38A0C00846A47 /* Extension+UINavigationController.swift */,
+				06008B1D21F38A0900846A47 /* Extension+UIView.swift */,
+				06008B3221F38A0B00846A47 /* Extension+UserDefaults.swift */,
+				06008B2D21F38A0A00846A47 /* Extension+ViewController.swift */,
+				06008B3521F38A0B00846A47 /* GCD+ext.swift */,
+				06008B2B21F38A0A00846A47 /* UIApplication + StatusBarView.swift */,
+				06008B2321F38A0900846A47 /* UITableView+TableFlip.swift */,
+				06008B2221F38A0900846A47 /* UIView+Anchors.swift */,
+				06008B3421F38A0B00846A47 /* Util.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		06008B9021F38C5200846A47 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				06008B9121F38C6300846A47 /* Player.storyboard */,
+				06008B9221F38C6300846A47 /* PlayerPresenter.swift */,
+				06008B9321F38C6300846A47 /* PlayerRouter.swift */,
+				06008B9421F38C6300846A47 /* PlayerViewController.swift */,
+				06008B9521F38C6300846A47 /* PlayerProtocols.swift */,
+				06008B9621F38C6300846A47 /* PlayerInteractor.swift */,
+				06008B9721F38C6300846A47 /* PlayerConfigurator.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		8395C440676F3BEE05AB1D01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A608C59468BC7D118344E51 /* Pods_OnlineRadio.framework */,
+				4A49B1FE20DB7EEBF59806CC /* Pods_OnlineRadioTests.framework */,
+				26FC781DBA4AF32361B97B2E /* Pods_OnlineRadioUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACCEEE4582DD414D81708E32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BD87DF0F678210261661AC3 /* Pods-OnlineRadio.debug.xcconfig */,
+				ED77B89D7908A5219E2F46ED /* Pods-OnlineRadio.release.xcconfig */,
+				C80C918F26DCFD5432C4F178 /* Pods-OnlineRadioTests.debug.xcconfig */,
+				A705BE56C060CBFE948DD2B2 /* Pods-OnlineRadioTests.release.xcconfig */,
+				76B74426A567F3EF83778A22 /* Pods-OnlineRadioUITests.debug.xcconfig */,
+				A9B3459A32664B0B3D81853A /* Pods-OnlineRadioUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06008AE621F3859B00846A47 /* OnlineRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06008B0F21F385A000846A47 /* Build configuration list for PBXNativeTarget "OnlineRadio" */;
+			buildPhases = (
+				E092171368199E3ED41DA478 /* [CP] Check Pods Manifest.lock */,
+				06008AE321F3859B00846A47 /* Sources */,
+				06008AE421F3859B00846A47 /* Frameworks */,
+				06008AE521F3859B00846A47 /* Resources */,
+				4AE8EAB505BB5ECB4F50BF4E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnlineRadio;
+			productName = OnlineRadio;
+			productReference = 06008AE721F3859C00846A47 /* OnlineRadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06008AFA21F385A000846A47 /* OnlineRadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06008B1221F385A000846A47 /* Build configuration list for PBXNativeTarget "OnlineRadioTests" */;
+			buildPhases = (
+				1BEF3299A44AC21BD5E34CA4 /* [CP] Check Pods Manifest.lock */,
+				06008AF721F385A000846A47 /* Sources */,
+				06008AF821F385A000846A47 /* Frameworks */,
+				06008AF921F385A000846A47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06008AFD21F385A000846A47 /* PBXTargetDependency */,
+			);
+			name = OnlineRadioTests;
+			productName = OnlineRadioTests;
+			productReference = 06008AFB21F385A000846A47 /* OnlineRadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06008B0521F385A000846A47 /* OnlineRadioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06008B1521F385A000846A47 /* Build configuration list for PBXNativeTarget "OnlineRadioUITests" */;
+			buildPhases = (
+				AB6F60458129FF6A22F871A9 /* [CP] Check Pods Manifest.lock */,
+				06008B0221F385A000846A47 /* Sources */,
+				06008B0321F385A000846A47 /* Frameworks */,
+				06008B0421F385A000846A47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06008B0821F385A000846A47 /* PBXTargetDependency */,
+			);
+			name = OnlineRadioUITests;
+			productName = OnlineRadioUITests;
+			productReference = 06008B0621F385A000846A47 /* OnlineRadioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06008ADF21F3859B00846A47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Артём Балашов";
+				TargetAttributes = {
+					06008AE621F3859B00846A47 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					06008AFA21F385A000846A47 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 06008AE621F3859B00846A47;
+					};
+					06008B0521F385A000846A47 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 06008AE621F3859B00846A47;
+					};
+				};
+			};
+			buildConfigurationList = 06008AE221F3859B00846A47 /* Build configuration list for PBXProject "OnlineRadio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06008ADE21F3859B00846A47;
+			productRefGroup = 06008AE821F3859C00846A47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06008AE621F3859B00846A47 /* OnlineRadio */,
+				06008AFA21F385A000846A47 /* OnlineRadioTests */,
+				06008B0521F385A000846A47 /* OnlineRadioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06008AE521F3859B00846A47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06008AF521F385A000846A47 /* LaunchScreen.storyboard in Resources */,
+				06008B9821F38C6300846A47 /* Player.storyboard in Resources */,
+				06008AF221F385A000846A47 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06008AF921F385A000846A47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06008B9921F38C6300846A47 /* Player.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06008B0421F385A000846A47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06008B9A21F38C6300846A47 /* Player.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BEF3299A44AC21BD5E34CA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnlineRadioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AE8EAB505BB5ECB4F50BF4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OnlineRadio/Pods-OnlineRadio-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CollectionKit/CollectionKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Marshal/Marshal.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TableKit/TableKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CollectionKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Marshal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TableKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnlineRadio/Pods-OnlineRadio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB6F60458129FF6A22F871A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnlineRadioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E092171368199E3ED41DA478 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnlineRadio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06008AE321F3859B00846A47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06008B7221F38A0C00846A47 /* Extension + Localize.swift in Sources */,
+				06008B3921F38A0C00846A47 /* Extension+UILabel.swift in Sources */,
+				06008B5121F38A0C00846A47 /* Extension + PromiseKit.swift in Sources */,
+				06008B6F21F38A0C00846A47 /* Extension+UIColor.swift in Sources */,
+				06008B7821F38A0C00846A47 /* Extension+UIButton.swift in Sources */,
+				06008BA421F38C6300846A47 /* PlayerProtocols.swift in Sources */,
+				06008B7521F38A0C00846A47 /* Extension+FloatingPoint.swift in Sources */,
+				06008BAE21F3968200846A47 /* PlayerService.swift in Sources */,
+				06008B3C21F38A0C00846A47 /* Extension+UIView.swift in Sources */,
+				06008B7B21F38A0C00846A47 /* Extension+UserDefaults.swift in Sources */,
+				06008B8721F38A0C00846A47 /* Extension+DealocationChecker.swift in Sources */,
+				06008B4821F38A0C00846A47 /* Extension+UIImage.swift in Sources */,
+				06008B8121F38A0C00846A47 /* Util.swift in Sources */,
+				06008B6321F38A0C00846A47 /* Extension+Date.swift in Sources */,
+				06008B7E21F38A0C00846A47 /* Extension+Array.swift in Sources */,
+				06008B5421F38A0C00846A47 /* Extension+DP.swift in Sources */,
+				06008B8421F38A0C00846A47 /* GCD+ext.swift in Sources */,
+				06008B6621F38A0C00846A47 /* UIApplication + StatusBarView.swift in Sources */,
+				06008B4B21F38A0C00846A47 /* UIView+Anchors.swift in Sources */,
+				06008B5D21F38A0C00846A47 /* Extension+TableDirector.swift in Sources */,
+				06008B4521F38A0C00846A47 /* Extension + SideMenuController.swift in Sources */,
+				06008B8A21F38A0C00846A47 /* Extension+String.swift in Sources */,
+				06008B9B21F38C6300846A47 /* PlayerPresenter.swift in Sources */,
+				06008AEB21F3859C00846A47 /* AppDelegate.swift in Sources */,
+				06008B9E21F38C6300846A47 /* PlayerRouter.swift in Sources */,
+				06008BA721F38C6300846A47 /* PlayerInteractor.swift in Sources */,
+				06008BAA21F38C6300846A47 /* PlayerConfigurator.swift in Sources */,
+				06008B6C21F38A0C00846A47 /* Extension+ViewController.swift in Sources */,
+				06008B5721F38A0C00846A47 /* Extension+Dictionary.swift in Sources */,
+				06008B4E21F38A0C00846A47 /* UITableView+TableFlip.swift in Sources */,
+				06008B5A21F38A0C00846A47 /* Extension+TimeInterval.swift in Sources */,
+				06008B4221F38A0C00846A47 /* Extension+CardPresentation+UIViewController.swift in Sources */,
+				06008B6921F38A0C00846A47 /* Extension+CALayer.swift in Sources */,
+				06008B6021F38A0C00846A47 /* CGFloat + Convert.swift in Sources */,
+				06008B3F21F38A0C00846A47 /* Extension + Data.swift in Sources */,
+				06008B8D21F38A0C00846A47 /* Extension+UINavigationController.swift in Sources */,
+				06008BA121F38C6300846A47 /* PlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06008AF721F385A000846A47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06008B4F21F38A0C00846A47 /* UITableView+TableFlip.swift in Sources */,
+				06008B4921F38A0C00846A47 /* Extension+UIImage.swift in Sources */,
+				06008B5B21F38A0C00846A47 /* Extension+TimeInterval.swift in Sources */,
+				06008B5221F38A0C00846A47 /* Extension + PromiseKit.swift in Sources */,
+				06008B7F21F38A0C00846A47 /* Extension+Array.swift in Sources */,
+				06008B8E21F38A0C00846A47 /* Extension+UINavigationController.swift in Sources */,
+				06008B5E21F38A0C00846A47 /* Extension+TableDirector.swift in Sources */,
+				06008B6421F38A0C00846A47 /* Extension+Date.swift in Sources */,
+				06008B8221F38A0C00846A47 /* Util.swift in Sources */,
+				06008B4C21F38A0C00846A47 /* UIView+Anchors.swift in Sources */,
+				06008B8821F38A0C00846A47 /* Extension+DealocationChecker.swift in Sources */,
+				06008B8521F38A0C00846A47 /* GCD+ext.swift in Sources */,
+				06008B4321F38A0C00846A47 /* Extension+CardPresentation+UIViewController.swift in Sources */,
+				06008B3A21F38A0C00846A47 /* Extension+UILabel.swift in Sources */,
+				06008B6A21F38A0C00846A47 /* Extension+CALayer.swift in Sources */,
+				06008BAB21F38C6300846A47 /* PlayerConfigurator.swift in Sources */,
+				06008B0021F385A000846A47 /* OnlineRadioTests.swift in Sources */,
+				06008B9C21F38C6300846A47 /* PlayerPresenter.swift in Sources */,
+				06008B7021F38A0C00846A47 /* Extension+UIColor.swift in Sources */,
+				06008B5821F38A0C00846A47 /* Extension+Dictionary.swift in Sources */,
+				06008B3D21F38A0C00846A47 /* Extension+UIView.swift in Sources */,
+				06008BA221F38C6300846A47 /* PlayerViewController.swift in Sources */,
+				06008BA821F38C6300846A47 /* PlayerInteractor.swift in Sources */,
+				06008B7621F38A0C00846A47 /* Extension+FloatingPoint.swift in Sources */,
+				06008B5521F38A0C00846A47 /* Extension+DP.swift in Sources */,
+				06008B4021F38A0C00846A47 /* Extension + Data.swift in Sources */,
+				06008BA521F38C6300846A47 /* PlayerProtocols.swift in Sources */,
+				06008B4621F38A0C00846A47 /* Extension + SideMenuController.swift in Sources */,
+				06008B6121F38A0C00846A47 /* CGFloat + Convert.swift in Sources */,
+				06008B6721F38A0C00846A47 /* UIApplication + StatusBarView.swift in Sources */,
+				06008B6D21F38A0C00846A47 /* Extension+ViewController.swift in Sources */,
+				06008B9F21F38C6300846A47 /* PlayerRouter.swift in Sources */,
+				06008B7321F38A0C00846A47 /* Extension + Localize.swift in Sources */,
+				06008B7C21F38A0C00846A47 /* Extension+UserDefaults.swift in Sources */,
+				06008B7921F38A0C00846A47 /* Extension+UIButton.swift in Sources */,
+				06008BAF21F3968200846A47 /* PlayerService.swift in Sources */,
+				06008B8B21F38A0C00846A47 /* Extension+String.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06008B0221F385A000846A47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06008B5021F38A0C00846A47 /* UITableView+TableFlip.swift in Sources */,
+				06008B4A21F38A0C00846A47 /* Extension+UIImage.swift in Sources */,
+				06008B5C21F38A0C00846A47 /* Extension+TimeInterval.swift in Sources */,
+				06008B5321F38A0C00846A47 /* Extension + PromiseKit.swift in Sources */,
+				06008B8021F38A0C00846A47 /* Extension+Array.swift in Sources */,
+				06008B8F21F38A0C00846A47 /* Extension+UINavigationController.swift in Sources */,
+				06008B5F21F38A0C00846A47 /* Extension+TableDirector.swift in Sources */,
+				06008B6521F38A0C00846A47 /* Extension+Date.swift in Sources */,
+				06008B8321F38A0C00846A47 /* Util.swift in Sources */,
+				06008B4D21F38A0C00846A47 /* UIView+Anchors.swift in Sources */,
+				06008B8921F38A0C00846A47 /* Extension+DealocationChecker.swift in Sources */,
+				06008B8621F38A0C00846A47 /* GCD+ext.swift in Sources */,
+				06008B4421F38A0C00846A47 /* Extension+CardPresentation+UIViewController.swift in Sources */,
+				06008B3B21F38A0C00846A47 /* Extension+UILabel.swift in Sources */,
+				06008B6B21F38A0C00846A47 /* Extension+CALayer.swift in Sources */,
+				06008BAC21F38C6300846A47 /* PlayerConfigurator.swift in Sources */,
+				06008B0B21F385A000846A47 /* OnlineRadioUITests.swift in Sources */,
+				06008B9D21F38C6300846A47 /* PlayerPresenter.swift in Sources */,
+				06008B7121F38A0C00846A47 /* Extension+UIColor.swift in Sources */,
+				06008B5921F38A0C00846A47 /* Extension+Dictionary.swift in Sources */,
+				06008B3E21F38A0C00846A47 /* Extension+UIView.swift in Sources */,
+				06008BA321F38C6300846A47 /* PlayerViewController.swift in Sources */,
+				06008BA921F38C6300846A47 /* PlayerInteractor.swift in Sources */,
+				06008B7721F38A0C00846A47 /* Extension+FloatingPoint.swift in Sources */,
+				06008B5621F38A0C00846A47 /* Extension+DP.swift in Sources */,
+				06008B4121F38A0C00846A47 /* Extension + Data.swift in Sources */,
+				06008BA621F38C6300846A47 /* PlayerProtocols.swift in Sources */,
+				06008B4721F38A0C00846A47 /* Extension + SideMenuController.swift in Sources */,
+				06008B6221F38A0C00846A47 /* CGFloat + Convert.swift in Sources */,
+				06008B6821F38A0C00846A47 /* UIApplication + StatusBarView.swift in Sources */,
+				06008B6E21F38A0C00846A47 /* Extension+ViewController.swift in Sources */,
+				06008BA021F38C6300846A47 /* PlayerRouter.swift in Sources */,
+				06008B7421F38A0C00846A47 /* Extension + Localize.swift in Sources */,
+				06008B7D21F38A0C00846A47 /* Extension+UserDefaults.swift in Sources */,
+				06008B7A21F38A0C00846A47 /* Extension+UIButton.swift in Sources */,
+				06008BB021F3968200846A47 /* PlayerService.swift in Sources */,
+				06008B8C21F38A0C00846A47 /* Extension+String.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06008AFD21F385A000846A47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06008AE621F3859B00846A47 /* OnlineRadio */;
+			targetProxy = 06008AFC21F385A000846A47 /* PBXContainerItemProxy */;
+		};
+		06008B0821F385A000846A47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06008AE621F3859B00846A47 /* OnlineRadio */;
+			targetProxy = 06008B0721F385A000846A47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06008AF321F385A000846A47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06008AF421F385A000846A47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06008B0D21F385A000846A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06008B0E21F385A000846A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06008B1021F385A000846A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD87DF0F678210261661AC3 /* Pods-OnlineRadio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54X9L274YP;
+				INFOPLIST_FILE = OnlineRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pockerhead.OnlineRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06008B1121F385A000846A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED77B89D7908A5219E2F46ED /* Pods-OnlineRadio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54X9L274YP;
+				INFOPLIST_FILE = OnlineRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pockerhead.OnlineRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06008B1321F385A000846A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80C918F26DCFD5432C4F178 /* Pods-OnlineRadioTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54X9L274YP;
+				INFOPLIST_FILE = OnlineRadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pockerhead.OnlineRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnlineRadio.app/OnlineRadio";
+			};
+			name = Debug;
+		};
+		06008B1421F385A000846A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A705BE56C060CBFE948DD2B2 /* Pods-OnlineRadioTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54X9L274YP;
+				INFOPLIST_FILE = OnlineRadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pockerhead.OnlineRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnlineRadio.app/OnlineRadio";
+			};
+			name = Release;
+		};
+		06008B1621F385A000846A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76B74426A567F3EF83778A22 /* Pods-OnlineRadioUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54X9L274YP;
+				INFOPLIST_FILE = OnlineRadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pockerhead.OnlineRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OnlineRadio;
+			};
+			name = Debug;
+		};
+		06008B1721F385A000846A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B3459A32664B0B3D81853A /* Pods-OnlineRadioUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54X9L274YP;
+				INFOPLIST_FILE = OnlineRadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pockerhead.OnlineRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OnlineRadio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06008AE221F3859B00846A47 /* Build configuration list for PBXProject "OnlineRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06008B0D21F385A000846A47 /* Debug */,
+				06008B0E21F385A000846A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06008B0F21F385A000846A47 /* Build configuration list for PBXNativeTarget "OnlineRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06008B1021F385A000846A47 /* Debug */,
+				06008B1121F385A000846A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06008B1221F385A000846A47 /* Build configuration list for PBXNativeTarget "OnlineRadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06008B1321F385A000846A47 /* Debug */,
+				06008B1421F385A000846A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06008B1521F385A000846A47 /* Build configuration list for PBXNativeTarget "OnlineRadioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06008B1621F385A000846A47 /* Debug */,
+				06008B1721F385A000846A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06008ADF21F3859B00846A47 /* Project object */;
+}
