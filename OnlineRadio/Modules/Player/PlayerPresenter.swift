@@ -29,8 +29,16 @@ class PlayerPresenter {
         self.view = interface
         self.interactor = interactor
         self.router = router
+        NotificationCenter.default.addObserver(self, selector: #selector(appDidBecomeActive(_:)), name: UIApplication.didBecomeActiveNotification, object: nil)
     }
     
+}
+
+//MARK: - Action
+extension PlayerPresenter {
+    @objc private func appDidBecomeActive(_ sender: Notification) {
+        viewWillAppear()
+    }
 }
 
 // MARK: - PlayerPresenterInterface -

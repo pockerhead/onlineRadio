@@ -18,11 +18,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onAir" translatesAutoresizingMaskIntoConstraints="NO" id="jhg-vp-r3L">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onAir" translatesAutoresizingMaskIntoConstraints="NO" id="jhg-vp-r3L" customClass="ShadowImageView" customModule="OnlineRadio" customModuleProvider="target">
                                 <rect key="frame" x="30" y="50" width="260" height="260"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="jhg-vp-r3L" secondAttribute="height" multiplier="1:1" id="agS-YV-31a"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Online Radio" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ak9-gX-M6M">
                                 <rect key="frame" x="30" y="340" width="260" height="20.5"/>

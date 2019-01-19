@@ -124,6 +124,7 @@
 		06008BAF21F3968200846A47 /* PlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008BAD21F3968200846A47 /* PlayerService.swift */; };
 		06008BB021F3968200846A47 /* PlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008BAD21F3968200846A47 /* PlayerService.swift */; };
 		06008BB221F3B3EA00846A47 /* Extension + AVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008BB121F3B3EA00846A47 /* Extension + AVPlayer.swift */; };
+		06008BB521F3C2D700846A47 /* ShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06008BB421F3C2D700846A47 /* ShadowImageView.swift */; };
 		3D2043449E79FFDF46438C4D /* Pods_OnlineRadio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A608C59468BC7D118344E51 /* Pods_OnlineRadio.framework */; };
 		69A0EFBA4DD2CE4A5AAB0527 /* Pods_OnlineRadioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A49B1FE20DB7EEBF59806CC /* Pods_OnlineRadioTests.framework */; };
 		D3AEEAD280109F9FBC5223E0 /* Pods_OnlineRadioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26FC781DBA4AF32361B97B2E /* Pods_OnlineRadioUITests.framework */; };
@@ -196,6 +197,7 @@
 		06008B9721F38C6300846A47 /* PlayerConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerConfigurator.swift; sourceTree = "<group>"; };
 		06008BAD21F3968200846A47 /* PlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerService.swift; sourceTree = "<group>"; };
 		06008BB121F3B3EA00846A47 /* Extension + AVPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + AVPlayer.swift"; sourceTree = "<group>"; };
+		06008BB421F3C2D700846A47 /* ShadowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowImageView.swift; sourceTree = "<group>"; };
 		1BD87DF0F678210261661AC3 /* Pods-OnlineRadio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineRadio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnlineRadio/Pods-OnlineRadio.debug.xcconfig"; sourceTree = "<group>"; };
 		26FC781DBA4AF32361B97B2E /* Pods_OnlineRadioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnlineRadioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A608C59468BC7D118344E51 /* Pods_OnlineRadio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnlineRadio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -260,6 +262,7 @@
 		06008AE921F3859C00846A47 /* OnlineRadio */ = {
 			isa = PBXGroup;
 			children = (
+				06008BB321F3C2C400846A47 /* CustomClasses */,
 				06008B1B21F3897800846A47 /* Extensions */,
 				06008B1A21F3897300846A47 /* Models */,
 				06008B1921F3896900846A47 /* Services */,
@@ -362,6 +365,14 @@
 				06008B9721F38C6300846A47 /* PlayerConfigurator.swift */,
 			);
 			path = Player;
+			sourceTree = "<group>";
+		};
+		06008BB321F3C2C400846A47 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				06008BB421F3C2D700846A47 /* ShadowImageView.swift */,
+			);
+			path = CustomClasses;
 			sourceTree = "<group>";
 		};
 		8395C440676F3BEE05AB1D01 /* Frameworks */ = {
@@ -632,6 +643,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06008BB521F3C2D700846A47 /* ShadowImageView.swift in Sources */,
 				06008B7221F38A0C00846A47 /* Extension + Localize.swift in Sources */,
 				06008B3921F38A0C00846A47 /* Extension+UILabel.swift in Sources */,
 				06008B5121F38A0C00846A47 /* Extension + PromiseKit.swift in Sources */,
